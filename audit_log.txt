@@ -1,0 +1,7 @@
+Archivo original cargado: breweries_data_erroneous.csv
+Número de registros iniciales: 12
+Duplicados eliminados: 2
+Valores nulos antes: 25, después: 10
+Errores en tipos de datos corregidos para 'longitude' y 'latitude'.
+Estados normalizados en la columna 'state'.
+Archivo limpio guardado: breweries_data_cleaned.csv
