@@ -1,0 +1,4 @@
+Cantidad de registros en el DataFrame original: 50
+Cantidad de registros en la base de datos SQLite: 50
+
+No hay diferencias en los datos.
