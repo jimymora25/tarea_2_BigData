@@ -20,7 +20,7 @@ jobs:
     - name: Instalar dependencias
       run: |
         python -m pip install --upgrade pip
-        pip install requests pandas jupyter
+        pip install requests pandas openpyxl jupyter
 
     # Paso 4: Convertir y ejecutar Script_Brewery.ipynb
     - name: Ejecutar script principal
