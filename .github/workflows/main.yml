@@ -21,10 +21,10 @@ jobs:
         
     - name: Ejecutar script
       run: |
-        python ./tarea_2_BigData/Script_Brewery.ipynb
+        python Script_Brewery.ipynb
     - name: Contaminacion base datos
       run: |
-        python ./tarea_2_BigData/Script_Brewery_errores.ipynb
+        python Script_Brewery_errores.ipynb
     - name: Limpieza  datos
       run: |
-        python ./tarea_2_BigData/limpieza.py 
+        python limpieza.py 
