@@ -1,0 +1,16 @@
+Reporte de Enriquecimiento de Datos
+Fecha y Hora de la Integración: 2025-03-30 12:58:08.127016
+==================================================
+Cantidad de registros en el dataset base: 10
+Cantidad de columnas en el dataset base: 14
+Cantidad de registros en el dataset enriquecido: 10
+Cantidad de columnas en el dataset enriquecido: 29
+==================================================
+Fuentes de Datos Utilizadas:
+- XML
+- JSON
+- XLSX
+==================================================
+Resumen de la Integración:
+Se han integrado 15 nuevas columnas.
+==================================================

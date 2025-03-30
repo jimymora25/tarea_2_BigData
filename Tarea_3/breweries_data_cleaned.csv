@@ -1,0 +1,11 @@
+id,name,brewery_type,address_1,city,state_province,postal_code,country,longitude,latitude,phone,website_url,state,street
+id_0,Brewery_0,Unknown,Address_0,CityA,StateB,ABCDE,US,24.501232,0.0,555-1234,http://example0.com,Unknown,Street_0
+id_1,Brewery_1,Unknown,Address_1,CityB,StateB,ABCDE,US,0.0,0.0,,,California,Street_1
+id_2,Brewery_2,Unknown,Address_2,CityA,INVALID,12345,US,0.0,65.212914,999999999999,,Unknown,Street_2
+id_3,Brewery_3,micro,Address_3,CityA,INVALID,ABCDE,US,-106.651413,0.0,555-1234,http://example3.com,Unknown,Street_3
+id_4,Brewery_4,nano,Address_4,Unknown,INVALID,12345,US,0.0,-27.883247,999999999999,http://example4.com,California,Street_4
+id_5,Brewery_5,nano,Address_5,Unknown,,ABCDE,US,0.0,0.0,,http://example5.com,Unknown,Street_5
+id_6,Brewery_6,regional,Address_6,Unknown,StateA,,US,0.0,0.0,,http://example6.com,California,Street_6
+id_7,Brewery_7,nano,Address_7,CityB,INVALID,ABCDE,US,0.0,0.0,555-1234,http://example7.com,California,Street_7
+id_8,Brewery_8,micro,Address_8,Unknown,INVALID,,US,145.137167,0.0,,,Unknown,Street_8
+id_9,Brewery_9,nano,Address_9,Unknown,StateA,,US,0.0,0.0,INVALID,,California,Street_9

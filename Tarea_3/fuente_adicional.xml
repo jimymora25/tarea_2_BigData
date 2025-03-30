@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <cerveceria>
+    <id>id_0</id>
+    <brewery_type>micro</brewery_type>
+    <city>CityA</city>
+    <state_province>StateA</state_province>
+    <postal_code>12345</postal_code>
+    <value_xml>dato_xml_0</value_xml>
+  </cerveceria>
+  <cerveceria>
+    <id>id_1</id>
+    <brewery_type>nano</brewery_type>
+    <city>CityB</city>
+    <state_province>StateB</state_province>
+    <postal_code>67890</postal_code>
+    <value_xml>dato_xml_1</value_xml>
+  </cerveceria>
+  <cerveceria>
+    <id>id_2</id>
+    <brewery_type>regional</brewery_type>
+    <city>CityA</city>
+    <state_province>StateA</state_province>
+    <postal_code>54321</postal_code>
+    <value_xml>dato_xml_2</value_xml>
+  </cerveceria>
+  <cerveceria>
+    <id>id_3</id>
+    <brewery_type>micro</brewery_type>
+    <city>CityB</city>
+    <state_province>StateB</state_province>
+    <postal_code>98765</postal_code>
+    <value_xml>dato_xml_3</value_xml>
+  </cerveceria>
+  <cerveceria>
+    <id>id_4</id>
+    <brewery_type>nano</brewery_type>
+    <city>CityA</city>
+    <state_province>StateA</state_province>
+    <postal_code>11223</postal_code>
+    <value_xml>dato_xml_4</value_xml>
+  </cerveceria>
+</root>

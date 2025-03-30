@@ -1,0 +1,5 @@
+{"id":"id_0","brewery_type":"micro","city":"CityA","state_province":"StateA","postal_code":"12345","value_json":"dato_json_0"}
+{"id":"id_1","brewery_type":"nano","city":"CityB","state_province":"StateB","postal_code":"67890","value_json":"dato_json_1"}
+{"id":"id_2","brewery_type":"regional","city":"CityA","state_province":"StateA","postal_code":"54321","value_json":"dato_json_2"}
+{"id":"id_3","brewery_type":"micro","city":"CityB","state_province":"StateB","postal_code":"98765","value_json":"dato_json_3"}
+{"id":"id_4","brewery_type":"nano","city":"CityA","state_province":"StateA","postal_code":"11223","value_json":"dato_json_4"}
