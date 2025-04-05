@@ -1,30 +1,47 @@
 README.
-FUNCIONAMIENTO DEL CODIGO.
 
-1. El archivo Script_Brewery.ipynb que es parte de la actividad 1 hace la ingesta desde la API en la
-actividad entregada en la tarea 1 y genera los archivos brewery.db, breweries_data.xlsx, breweries_data.csv 
-y el archivo auditoria.txt que documenta los registros de la ingesta como ejemplo tenemos: 
-Cantidad de registros en el DataFrame original: 50
-Cantidad de registros en la base de datos SQLite: 50
-No hay diferencias en los datos.
 
-2. El archivo Script_Brewery_errores.ipynb es con el que se trabaja en el preprocesamiento de datos 
-para lo cual se le genera a la base de datos contaminacion de sus datos y poder hacer la limpieza con 
-el codigo del archivo limpieza.py.
+## Trazabilidad del Proceso
 
-3. Una vez ejecutados estos codigos encontramos en formato .csv los archivos errones y en el mismo formato
-los archivos que han sido limpiados durante el proceso de limpieza.
+* **Ingesta de Datos:**
+    * Se extraen datos de la API Open Brewery DB y se almacenan en una base de datos SQLite (`brewery.db`).
+    * Se generan archivos CSV y Excel como muestras de los datos.
+    * Se genera un archivo de auditoría para verificar la integridad de los datos.
 
-4. El archivo audit_log.txt muestra la auditoria de los procedimientos de los puntos anteriores.
-.......
 
-Tarea_3 Marzo 30 de 2025.
+* **Preprocesamiento de Datos:**
+    * Se limpian y transforman los datos almacenados en SQLite.
+    * Se eliminan duplicados, se manejan valores nulos y se corrigen tipos de datos.
+    * Se genera un archivo CSV con los datos limpios.
+    * Se genera un archivo de auditoría para documentar los cambios.
 
-actividad enriquecimiento de datos de varias fuentes. 
-1. Con el dataset obtenido en la tarea 2 con datos limpios llamado breweries_data_cleaned.csv se inicia su
-enriquecimiento con datos provenientes de otras fuentes con otros formatos.
-2. Se crea un archivo llamado integracion_datos.py el cual contiene el paso a paso para extraer la información de las diversas fuentes en nuestro ejemplo XML, xlsx y .json.
-3. Se genera el código para mostrar los reportes que documenten los cambios. En nuestro caso el dataset base fue enriquecido con 15 nuevas columnas manteniéndose la cantidad de filas ya que las fuentes que nosotros utilizamos como ejemplo solo contenían un menor numero de filas. 
-4. la consolidación de estas fuentes se hace en un archivo de salida llamado dataset_enriquecido.csv.
-5. Se agrega al proyecto en githug donde se actualiza el workflow y se documenta su funcionalidad con el check correcto de ejecución.
-Con este código  aprendimos integración de datos de diversas fuentes.....
+
+* **Enriquecimiento de Datos:**
+    * Se integran datos de archivos XML, JSON y XLSX con los datos limpios.
+    * Se genera un archivo CSV con los datos enriquecidos.
+    * Se genera un reporte de enriquecimiento.
+
+## Instrucciones de Ejecución
+
+* **Clonación del Repositorio:**
+    * `git clone https://github.com/jimymora25/tarea_2_BigData.git`
+* **Instalacion Dependencias:**
+    * `pip install requests pandas openpyxl jupyter lxml`
+* **Ejecucion del Script de Enriquecimiento:**
+    * `python Tarea_3/integracion_datos.py`
+
+## Automatización con GitHub Actions
+
+El flujo de trabajo automatizado mediante GitHub Actions realiza los siguientes pasos:
+
+* **Checkout del código:**    Obtiene el código fuente del repositorio.
+* **Configurar Python:**      Configura el entorno de Python 3.10.
+* **Instalar dependencias:**  Instala las librerías necesarias.
+* **Ejecutar `Script_Brewery.ipynb`:** Extrae y almacena datos de la API.
+* **Ejecutar `Script_Brewery_errores.ipynb`:** Genera datos erróneos para pruebas.
+* **Ejecutar `limpieza.py`:** Limpia los datos.
+* **Instalar dependencias `lxml`:** Instala dependencias adicionales.
+* **Ejecutar `integracion_datos.py`:** Enriquece los datos.
+
+
+
